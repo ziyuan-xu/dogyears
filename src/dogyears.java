@@ -5,10 +5,8 @@ public class dogyears {
         Scanner scnr = new Scanner(System.in);
         int dogYears;
         int humanYears;
-
         dogYears = scnr.nextInt();
         humanYears = 7 * dogYears;
-
         System.out.print("A ");
         System.out.print(dogYears);
         System.out.print(" year old dog is about a ");
